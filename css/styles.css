@@ -26,6 +26,10 @@ a {
 	font-style: normal;
 }
 
+.current {
+	color: var(--accent-text-color);
+}
+
 .hero-btn,
 .btn-item {
 	color: inherit;
@@ -59,10 +63,6 @@ a {
 
 .link:hover,
 .link:focus {
-	color: var(--accent-text-color);
-}
-
-.current {
 	color: var(--accent-text-color);
 }
 
@@ -200,7 +200,8 @@ footer {
 }
 
 .btn-item:hover,
-.btn-item:focus {
+.btn-item:focus,
+.btn-item.current-btn {
 	background-color: var(--accent-text-color);
 	color: var(--primary-white-color);
 }
