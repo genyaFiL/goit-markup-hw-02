@@ -156,7 +156,7 @@ a {
 /* Footer */
 
 footer {
-	background-color: #2f303a;
+	background-color: var(--hero-background-color);
 }
 
 .logo .logo-text2 {
