@@ -46,10 +46,19 @@ a {
 	color: var(--primary-text-color);
 }
 
+.contacts .link {
+	color: var(--secondary-text-color);
+}
+/* 
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link:focus,
 .contacts .link:hover {
+	color: var(--accent-text-color);
+} */
+
+.link:hover,
+.link:focus {
 	color: var(--accent-text-color);
 }
 
@@ -180,7 +189,7 @@ footer {
 
 /* Portfolio */
 
-.portfolio .btn-item {
+.btn-item {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -190,8 +199,8 @@ footer {
 	border: none;
 }
 
-.portfolio .btn-item:hover,
-.portfolio .btn-item:focus {
+.btn-item:hover,
+.btn-item:focus {
 	background-color: var(--accent-text-color);
 	color: var(--primary-white-color);
 }
